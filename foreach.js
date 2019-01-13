@@ -3,4 +3,4 @@ var result = 0;
 amountArr.forEach(arrayItem => {
     result += arrayItem;
 });
-console.log(result);
+console.log('Total Amount is '+result);
