@@ -13,3 +13,10 @@ for(var i = 0; i < nameArray.length; i++){
 console.log(text);
 
 
+var amountArr = [10, 20, 30];
+var result = 0;
+amountArr.forEach(item => {
+    result += item;
+});
+console.log(result);
+
