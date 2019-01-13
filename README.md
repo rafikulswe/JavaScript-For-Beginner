@@ -8,10 +8,11 @@ Main Topics for JavaScript Beginner:
 5. Switch Condition
 6. For Loop
 7. While Loop
-8. Function
+8. Foreach Loop
+9. Function
 
-9. String Method
-10. Number Method
-11. Array Method
-12. Array sort
-13. this keyword
+10. String Method
+11. Number Method
+12. Array Method
+13. Array sort
+14. this keyword
