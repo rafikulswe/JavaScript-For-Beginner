@@ -30,8 +30,10 @@ function operation(a, b, CallBack){
 function Output(sum, sub){
     console.log(sum, sub);
 }
-function multiply(sum, sub){
-    console.log(sum*sub);
-}
+// function multiply(sum, sub){
+//     console.log(sum*sub);
+// }
 operation(10, 5, Output);
-operation(10, 5, multiply);
+operation(10, 5, function(sum, sub){
+    console.log(sum*sub);
+});
