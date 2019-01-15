@@ -1,5 +1,6 @@
 //String Methods are- length(), indexOf(), lastIndexOf(), search(), substr(), slice(), replace(), 
 //toUpperCase(), toLowerCase(), concat(), trim(), split()
+
 //length()
 var txt = "My name is Rafi and i am a Programmer.";
 var txtln = txt.length;
@@ -30,13 +31,14 @@ console.log(substrResult);
 
 //slice()
 var sliceValue = "My name is Rafi and i am a Programmer.";
-var sliceResult = sliceValue.slice(11, 15);
+var sliceResult = sliceValue.slice(11, 15); //start index, end index
 console.log(sliceResult);
 
 
 //replace()
-var repValue = "My name is Rafi and i am a Programmer.";
+var repValue = "My name is Rafi and i am a Programmer and work in software firm.";
 var repResult = repValue.replace('Programmer', 'Software Engineer');
+var repResult = repValue.replace(/and/g, '&'); //here /g is a flag.
 console.log(repResult);
 
 
