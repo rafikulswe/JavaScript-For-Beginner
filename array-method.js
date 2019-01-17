@@ -16,6 +16,10 @@ console.log(fruits);
 fruits.unshift('black bary');
 console.log(fruits);
 
+//for change the index element of array
+fruits[0] = 'bary';
+console.log(fruits);
+
 
 
 
